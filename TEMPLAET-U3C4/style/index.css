@@ -1,0 +1,119 @@
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(158, 155, 155, 0.808);
+}
+
+#navbar {
+    /* margin: 0 0.2%; */
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 12px;
+    padding-right: 4%;
+    border: 5px solid rgb(18, 247, 10);
+    background-color: rgb(10, 10, 10);
+}
+
+#navbar a {
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+}
+
+#navbar>div {
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 3%;
+    background-color: transparent;
+}
+
+#poster {
+    margin: 2%;
+    display: flex;
+    justify-content: space-between;
+    /* width: 98%; */
+    /* height: 90vh; */
+}
+
+#poster>img {
+    border-radius: 20% 10%;
+}
+
+#footer {
+    /* height: 50px; */
+    background-color: blue;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+
+/* Menu */
+
+#menu {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.cont {
+    padding: 10px;
+    background-color: rgb(100, 23, 1);
+    text-align: center;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.cont>img {
+    width: 80%;
+    border-radius: 10px;
+}
+
+.mealname {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(221, 216, 226);
+    margin: 0 20px;
+    background-color: transparent;
+}
+
+#addtocart {
+    padding: 5px 32px;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: rgb(99, 11, 158);
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#count {
+    cursor: pointer;
+}
+
+#count>span {
+    border-radius: 30%;
+}
+
+.price {
+    background-color: rgb(245, 115, 141);
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+#cartcount {
+    background-color: blue;
+    border-radius: 40%;
+    color: rgb(180, 228, 10);
+}
+
+#wel {
+    margin-right: 500px;
+    color: #7c09da;
+}
